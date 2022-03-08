@@ -5,21 +5,21 @@ body{
   font-family:Arial, Helvetica, sans-serif;
   display:flex;
   flex-direction: column;
-  border: 1px solid orange;
 }
 
 .header{
   display: flex;
   flex-direction: row;
   align-items: center;
-  border: 1px solid red;
   justify-content: space-between;
   height:50px; 
 }
 .links{
   display: flex;
+  font-size:18px;
   justify-content: space-between;
-  gap: 10px;
+  color: #e5e7eb;
+  gap: 30px;
 }
 .header, .top {
   padding-left: 200px;
@@ -32,8 +32,7 @@ body{
 
 .top{
   display: flex;
-  border: 1px solid orange;
-  height: 400px;
+  height: 500px;
   gap: 20px;
   align-items: center;
   justify-content: space-between;
@@ -43,17 +42,14 @@ body{
   display: flex;
   flex-direction: column;
   gap:5px;
-  border: 1px solid lightseagreen;
 }
 
 .mid{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 400px;
+  height: 500px;
   gap: 10px;
-  border: 1px solid rgb(250, 250, 35);
 }
 
 .items{
@@ -77,13 +73,15 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid blue;
-  height:400px;
+  height:500px;
   background-color: #e5e7eb;
 }
 
 .quote{
   max-width: 800px;;
+  font-size:36px;
+  font-weight: lighter;
+  font-style:italic;
 }
 #quotecredit{
   display: flex;
@@ -95,7 +93,6 @@ body{
   justify-content: center;
   align-items: center;
   height: 200px;
-  border: 1px solid green; 
 }
 .insidebottom{
   display: flex;
@@ -103,11 +100,16 @@ body{
   align-items: center;
   height: 100px;
   width: 900px;
-  border: 5px solid rgb(255, 127, 214);
+  border-radius: 5px;
+  border-style: hidden;
   gap: 100px;
   padding-left: 10px;
   padding-right: 10px;
   background-color: steelblue;
+}
+
+.signup{
+  font-size:18px;
 }
 
 footer{
@@ -139,9 +141,9 @@ footer{
 }
 
 #firstbtn{
-  font-size: 18px;
+  font-size: 17px;
   height: 35px;
-  width: 90px;
+  width: 100px;
   background-color: #3882f6;
   color: #e5e7eb;
   border-radius: 5px;
@@ -151,6 +153,24 @@ footer{
 .designs{
   font-size: 36px;
   font-weight: 800;
-  color: #1f2937;
+  color: #1f2937 ;
 }
 
+.itemtext{
+  color:#1f2937; 
+}
+
+.insidebottom{
+  background-color: #3882f6;
+  color: #f9faf8; 
+}
+
+#secondbtn{
+  background-color: #3882f6;
+  color:#f9faf8;
+  border: 1px solid #f9faf8;
+  font-size: 17px;
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+}
