@@ -110,8 +110,12 @@ body{
 
 .signup{
   font-size:18px;
+  ;
 }
 
+ p.signup{
+  font-weight: larger
+}
 footer{
   display: flex;
   justify-content: center;
@@ -173,4 +177,8 @@ footer{
   height: 35px;
   width: 100px;
   border-radius: 5px;
+}
+
+#actionp{
+  font-size: larger;
 }
